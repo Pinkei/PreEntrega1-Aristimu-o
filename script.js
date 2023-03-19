@@ -1,8 +1,9 @@
-let medidas = prompt("Pasenos las medidas de su pile ej: 6x3")
+// 1ro preguntas para armar el Presupuesto 
+do{
+let medidas = prompt("Pasenos las medidas de su pileta ej: 6x3")
 let material = prompt("¿Su pileta es de fibra o de cemento?")
 let arco = prompt("¿Tiene arco romano? conteste si o no")
 
-do{
 if ((medidas != "") && (material != "") && (arco != "")){
 let piletas = "\n" + "1) " + medidas + " " + 
 "\n" + "2) " + material + " " + 
