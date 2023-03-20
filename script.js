@@ -8,11 +8,11 @@ if ((medidas != "") && (material != "") && (arco != "")){
 let piletas = "\n" + "1) " + medidas + " " + 
 "\n" + "2) " + material + " " + 
 "\n" + "3) " + arco + " " 
-alert("sus respuestas fueron: " + piletas)
+alert("Sus respuestas fueron: " + piletas)
 } else{
     alert("Error debe contestar las preguntas para que podamos armarle su presupuesto")
 }
-}while(confirm("¿quiere que le hagamos otro presupuesto?")){
+}while(confirm("¿Quiere que le hagamos otro presupuesto?")){
 
-alert("Gracias por comucicarte con KT atermicos en breve estaremos pasandole su presupuesto, pulsa ESC para salir")     
+alert("Gracias por comucicarte con KT atermicos en breve estaremos pasandole su presupuesto")     
 }
